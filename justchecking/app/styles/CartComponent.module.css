@@ -1,0 +1,147 @@
+.cartItem{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    margin: auto;
+    gap: 30px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.cartQuantityBlock{
+    display: flex;
+    align-items: stretch;
+    gap: 30px;
+}
+
+.cartQuantityBlock div button{
+    width: auto;
+    height: 30px;
+    font-size: 17px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.cartQuantityBlock div {
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.productName{
+    font-size: 20px;
+}
+
+.productPriceBlock{
+    margin-top: 10px;
+}
+
+.cartSummaryBlock{
+    display: grid;
+    align-items: stretch;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.discountBlock input{
+    height: 40px;
+    font-size: 17px;
+    width: 80%;
+}
+
+.discountBlock button{
+    height: 40px;
+    width: 80%;
+}
+
+.totalHeading{
+    font-size: 20px;
+}
+
+.totalPrice{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+@media all and (max-width:850px){
+    .cartSummaryBlock{
+        display: grid;
+        align-items: stretch;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 30px;
+        width: 500px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .cartItem{
+        display: flex;
+        align-items: center;
+        width: 500px;
+        margin: auto;
+        gap: 30px;
+        margin-bottom: 50px;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
+
+@media all and (max-width:550px){
+    .cartSummaryBlock{
+        display: grid;
+        align-items: stretch;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 30px;
+        width: 300px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .cartItem{
+        display: flex;
+        align-items: center;
+        width: 300px;
+        margin: auto;
+        gap: 30px;
+        margin-bottom: 50px;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .discountBlock input{
+        height: 40px;
+        font-size: 17px;
+        width: 100%;
+    }
+    
+    .discountBlock button{
+        height: 40px;
+        width: 100%;
+    }
+}
+
+@media all and (max-width:350px){
+    .cartSummaryBlock{
+        display: grid;
+        align-items: stretch;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 30px;
+        width: 250px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .cartItem{
+        display: flex;
+        align-items: center;
+        width: 250px;
+        margin: auto;
+        gap: 30px;
+        margin-bottom: 50px;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}

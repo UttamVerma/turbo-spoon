@@ -1,0 +1,1177 @@
+.product_parent_block {
+  margin-top: 50px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 100px;
+}
+
+.product_images_grid_block {
+  width: 48%;
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  row-gap: 10px;
+  justify-content: space-between;
+}
+
+.product_images_grid_block img {
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.product_images_single_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+  background-size: cover;
+}
+
+.product_images_single_block img {
+  width: 90%;
+  height: 500px;
+}
+
+.product_details_block {
+  width: 48%;
+}
+
+.product_details_block h1 {
+  margin-bottom: -10px;
+}
+
+.fixed {
+  position: fixed;
+  top: 120px;
+  left: 51.8%;
+  z-index: 0;
+  width: 46%;
+}
+
+.product_price_block {
+  margin-top: 20px;
+}
+
+.product_price_block div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-top: 10px;
+}
+
+.product_price_block div p:first-child {
+  font-size: 25px;
+}
+
+.product_price_block div p:nth-child(2) {
+  color: rgb(160, 158, 158);
+  text-decoration: line-through;
+  font-size: 20px;
+}
+
+.addCartBtn {
+  width: 90%;
+}
+
+.product_form {
+  margin-top: 20px;
+}
+
+.optionsGridBlock {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  gap: 10px;
+}
+
+.detailsPara {
+  margin-bottom: 10px;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.premium_parent_block {
+  height: 900px;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-size: cover;
+}
+
+.premium_heading_block {
+  width: 700px;
+  text-align: left;
+}
+
+.premium_heading_block h4 {
+  margin-bottom: 20px;
+}
+
+.premium_heading_block ul li {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.premium_btn_block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.premium_btn_block button {
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: transparent;
+  font-size: 17px;
+  color: white;
+}
+
+.premium_btn_block button:first-child {
+  border: 1px solid yellow;
+}
+
+.premium_btn_block button:nth-child(2) {
+  border: none;
+}
+
+.productQuestionsBlock {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.productQuestionsBlock div {
+  width: 100%;
+  text-align: left;
+}
+
+.productQuestionsBlock div h1 {
+  font-size: 30px;
+}
+
+.productQuestionBtnBlock {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.productQuestionBtnBlock button {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 50px;
+  font-size: 17px;
+  background-color: transparent;
+  color: white;
+}
+
+.productQuestionBtnBlock button:first-child {
+  border: 1px solid yellow;
+}
+
+.productQuestionBtnBlock button:nth-child(2) {
+  border: none;
+}
+
+.bestSellingParentBlock {
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 450px;
+  text-align: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+.bestSellingHeadingBlock {
+  width: 900px;
+}
+
+.bestSellingHeadingBlock div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+
+.bestSellingHeadingBlock div button {
+  height: 50px;
+  font-size: 17px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid white;
+}
+
+.bestSellingHeadingBlock div button:first-child {
+  background-color: white;
+}
+
+.bestSellingHeadingBlock div button:nth-child(2) {
+  background-color: transparent;
+}
+
+.featuredCollectionBlock {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+}
+
+.featuredCollectionHeadingBlock {
+  width: 700px;
+}
+
+.featuredCollectionHeadingBlock h4 {
+  margin-bottom: 20px;
+}
+
+.featuredCollectionGridBlock {
+  width: 100%;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  align-items: stretch;
+  justify-content: space-between;
+  row-gap: 50px;
+}
+
+.featuredCollectionGridBlock div {
+  width: 100%;
+  cursor: pointer;
+}
+
+.featuredCollectionGridBlock div img {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+
+.featuredCollectionGridBlock div div {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 55px;
+}
+
+.featuredCollectionGridBlock div div h3:first-child {
+  width: 60%;
+  font-size: 25px;
+}
+
+.featuredCollectionGridBlock div button {
+  width: 100%;
+  color: white;
+  margin-top: 20px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid yellow;
+  font-size: 17px;
+}
+
+.faq_parent_block {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.faq_parent_block h4,
+p {
+  z-index: 20;
+}
+
+.faq_parent_block img {
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+}
+
+.product1 {
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+.product2 {
+  top: 20%;
+  right: 0;
+  width: 600px;
+  height: 750px;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+.product3 {
+  top: 60%;
+  left: 0;
+  opacity: 0.4;
+}
+
+.faq_heading_block {
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  z-index: 10;
+}
+
+.faq_questions_answers_block {
+  width: 800px;
+  margin: auto;
+  margin-top: 100px;
+  z-index: 30;
+}
+
+.faq_questions_answers_block h4 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  z-index: 20;
+}
+
+.faq_questions_answers_block div {
+  margin-bottom: 50px;
+  z-index: 20;
+}
+
+.stillBlock {
+  width: 700px;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+  z-index: 20;
+}
+
+.stillBlock button {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 50px;
+  font-size: 17px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid yellow;
+}
+
+.addedCartText {
+  opacity: 0;
+  animation: 1s showText linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes showText {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media all and (max-width: 1380px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+  }
+  .featuredCollectionGridBlock div div h3:first-child {
+    width: 60%;
+    font-size: 25px;
+  }
+}
+
+@media all and (max-width: 1280px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 260px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 280px;
+    background-size: cover;
+  }
+  .featuredCollectionGridBlock div div h3:first-child {
+    width: 60%;
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .product_images_grid_block img {
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media all and (max-width: 1180px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 260px;
+    background-size: cover;
+  }
+  .featuredCollectionGridBlock div div h3:first-child {
+    width: 60%;
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+  }
+}
+
+@media all and (max-width: 1020px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .product_images_single_block img {
+    width: 90%;
+    height: 400px;
+  }
+}
+
+@media all and (max-width: 950px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 260px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 280px;
+    background-size: cover;
+  }
+
+  .product_images_grid_block {
+    width: 48%;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    row-gap: 10px;
+    justify-content: space-between;
+  }
+
+  .product_images_grid_block img {
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+  }
+
+  .product_details_block h1 {
+    margin-bottom: -10px;
+    font-size: 30px;
+  }
+
+  .product_price_block div p:first-child {
+    font-size: 20px;
+  }
+
+  .product_price_block div p:nth-child(2) {
+    color: rgb(160, 158, 158);
+    text-decoration: line-through;
+    font-size: 15px;
+  }
+
+  .optionName {
+    font-size: 30px;
+  }
+
+  .detailsPara {
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-size: 23px;
+  }
+
+  .premium_heading_block h1 {
+    font-size: 35px;
+  }
+
+  .productQuestionsBlock {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 47%);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 100px;
+  }
+
+  .productQuestionsBlock div h1 {
+    font-size: 30px;
+  }
+
+  .featuredCollectionHeadingBlock h1 {
+    font-size: 35px;
+  }
+
+  .faq_parent_block h1 {
+    font-size: 35px;
+  }
+
+  .faq_questions_answers_block h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    z-index: 20;
+  }
+
+  .faq_questions_answers_block p {
+    font-size: 17px;
+  }
+
+  .stillBlock h1 {
+    font-size: 35px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 240px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 260px;
+    background-size: cover;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .product_images_single_block img {
+    width: 90%;
+    height: 350px;
+  }
+
+  .faq_questions_answers_block {
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    z-index: 30;
+  }
+
+  .stillBlock {
+    width: 500px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+    z-index: 20;
+  }
+
+  .faq_heading_block {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    z-index: 10;
+  }
+
+  .featuredCollectionHeadingBlock {
+    width: 500px;
+  }
+
+  .premium_heading_block {
+    width: 500px;
+    text-align: left;
+  }
+}
+
+@media all and (max-width: 825px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 370px;
+    background-size: cover;
+  }
+  .premium_parent_block {
+    height: 700px;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-size: cover;
+  }
+  .product2 {
+    top: 20%;
+    right: 0;
+    width: 300px;
+    height: 650px;
+    background-size: cover;
+    opacity: 0.3;
+  }
+}
+
+@media all and (max-width: 790px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 330px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .product_images_grid_block img {
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+  }
+
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 310px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 330px;
+    background-size: cover;
+  }
+
+  .productQuestionsBlock div h1 {
+    font-size: 25px;
+  }
+
+  .featuredCollectionHeadingBlock h1 {
+    font-size: 30px;
+  }
+
+  .faq_parent_block h1 {
+    font-size: 30px;
+  }
+
+  .faq_questions_answers_block h4 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    z-index: 20;
+  }
+
+  .faq_questions_answers_block p {
+    font-size: 15px;
+  }
+
+  .stillBlock h1 {
+    font-size: 30px;
+  }
+}
+
+@media all and (max-width: 710px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 290px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 310px;
+    background-size: cover;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .product_parent_block {
+    margin-top: 50px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    row-gap: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 100px;
+  }
+
+  .product_details_block {
+    width: 100%;
+  }
+
+  .product_images_grid_block {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+
+  .product_images_grid_block img{
+    width: 90%;
+  }
+
+  .product_images_single_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .product_images_single_block img {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media all and (max-width: 660px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 270px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 290px;
+    background-size: cover;
+  }
+}
+
+@media all and (max-width: 615px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 270px;
+    background-size: cover;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .product_images_single_block img {
+    width: 100%;
+    height: 400px;
+  }
+  .faq_questions_answers_block {
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    z-index: 30;
+  }
+
+  .stillBlock {
+    width: 300px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+    z-index: 20;
+  }
+
+  .faq_heading_block {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    z-index: 10;
+  }
+
+  .featuredCollectionHeadingBlock {
+    width: 300px;
+  }
+
+  .premium_heading_block {
+    width: 400px;
+    text-align: left;
+  }
+
+  .premium_parent_block {
+    height: 700px;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-size: cover;
+  }
+
+  .productQuestionBtnBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
+
+@media all and (max-width: 570px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 230px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+  }
+  .featuredCollectionGridBlock div div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: auto;
+  }
+  .featuredCollectionGridBlock div div h3:first-child {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 530px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 210px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+  }
+  .premium_heading_block {
+    width: 350px;
+    text-align: left;
+  }
+  .premium_parent_block {
+    height: 750px;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-size: cover;
+  }
+}
+
+@media all and (max-width: 490px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 190px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 210px;
+    background-size: cover;
+  }
+  .bestSellingHeadingBlock div button:nth-child(2) {
+    background-color: transparent;
+    color: white;
+  }
+  .productQuestionsBlock {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 100px;
+  }
+  .product3 {
+    top: 80%;
+    left: 0;
+    opacity: 0.4;
+    width: 300px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .product_images_grid_block img {
+    background-size: cover;
+    width: 90%;
+    height: 300px;
+  }
+
+  .product_images_single_block img {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media all and (max-width: 440px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 170px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 190px;
+    background-size: cover;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .product_images_single_block img {
+    width: 100%;
+    height: 300px;
+  }
+  .product_images_grid_block img {
+    background-size: cover;
+    width: 90%;
+    height: 250px;
+  }
+}
+
+@media all and (max-width: 395px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 170px;
+    background-size: cover;
+  }
+  .premium_heading_block {
+    width: 300px;
+    text-align: left;
+  }
+  .premium_parent_block {
+    height: 800px;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-size: cover;
+  }
+  .featuredCollectionGridBlock div div h3:first-child {
+    width: 100%;
+    font-size: 17px;
+  }
+  .featuredCollectionBlock div div h3 {
+    font-size: 17px;
+  }
+  .product2 {
+    top: 30%;
+    right: 0;
+    width: 150px;
+    height: 450px;
+    background-size: cover;
+    opacity: 0.3;
+  }
+  .product1 {
+    top: 0;
+    width: 150px;
+    left: 0;
+    opacity: 0.3;
+  }
+}
+
+@media all and (max-width: 350px) {
+  .featuredCollectionGridBlock {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+  .featuredCollectionGridBlock div img {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+  }
+  .premium_heading_block {
+    width: 250px;
+    text-align: left;
+  }
+  .faq_questions_answers_block {
+    width: 250px;
+    margin: auto;
+    margin-top: 100px;
+    z-index: 30;
+  }
+
+  .stillBlock {
+    width: 250px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+    z-index: 20;
+  }
+
+  .faq_heading_block {
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    z-index: 10;
+  }
+
+  .featuredCollectionHeadingBlock {
+    width: 250px;
+  }
+  .premium_parent_block {
+    height: 850px;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-size: cover;
+  }
+  .product_images_grid_block img {
+    background-size: cover;
+    width: 90%;
+    height: 200px;
+  }
+}

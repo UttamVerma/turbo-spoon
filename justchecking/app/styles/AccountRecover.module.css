@@ -1,0 +1,15 @@
+.account_recover{
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.forgot_para{
+    margin-top: 20px;
+}
+
+@media all and (max-width:450px){
+    .account_recover{
+        width:250px;
+    }
+}

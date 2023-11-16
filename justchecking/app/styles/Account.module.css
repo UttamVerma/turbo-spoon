@@ -1,0 +1,30 @@
+.main_account_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.navlinks a{
+    color: white;
+}
+
+.signoutBtn{
+    margin-top: 30px;
+}
+
+@media all and (max-width:550px){
+    .main_account_block{
+        margin-left: 10%;
+    }
+}
+
+@media all and (max-width:450px){
+    .account h1{
+        font-size: 30px;
+    }
+
+    .main_account_block{
+        margin-left: 15%;
+    }
+}

@@ -1,0 +1,153 @@
+.navbar_parent_block {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  background-color: #1e1e1c;
+}
+
+.navbarScrolled {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.559);
+  transition: box-shadow 1s;
+}
+
+.logo_block {
+  width: 80px;
+  height: 80px;
+}
+
+.logo_block img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.optionsBlock {
+  width: 60%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.optionsBlock a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: text-decoration 3s ease;
+}
+
+.productsLinkBlock {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.expandIcon {
+  filter: invert(1);
+  height: 30px;
+  width: 30px;
+}
+
+.optionIcons {
+  filter: invert(1);
+  width: 30px;
+  height: 30px;
+}
+
+.hamburgerIcon {
+  cursor: pointer;
+  filter: invert(1);
+  height: 35px;
+  display: none;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 250px;
+  height: 100%;
+  background-color: #1e1e1c;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
+  transition: right 1s ease;
+  z-index: 1;
+  padding: 15px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.sidebarOpen {
+  right: 0;
+}
+
+.sidebarTopSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+
+.closeIcon {
+  filter: invert(1);
+}
+
+.sidebarOptionsBlock {
+  width: 100%;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.sidebarOptionsBlock a {
+  display: block;
+  margin-bottom: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+@media all and (max-width: 1200px) {
+  .optionsBlock {
+    width: 65%;
+  }
+}
+
+@media all and (max-width: 1050px) {
+  .optionsBlock {
+    width: 70%;
+  }
+}
+
+@media all and (max-width: 950px) {
+  .optionsBlock a {
+    display: none;
+  }
+
+  .expandIcon {
+    display: none;
+  }
+
+  .hamburgerIcon {
+    display: block;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .navbar_parent_block {
+    height: 80px;
+  }
+
+  .logo_block {
+    height: 60px;
+    width: 60px;
+  }
+}

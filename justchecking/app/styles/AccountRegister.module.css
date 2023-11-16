@@ -1,0 +1,11 @@
+.login{
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+@media all and (max-width:450px){
+    .login{
+        width:250px;
+    }
+}

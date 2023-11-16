@@ -1,0 +1,673 @@
+h1{
+    font-size: 55px;
+}
+
+.discoverBlock{
+    width: 100%;
+    padding: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 1px solid white;
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.discoverHeadingBlock{
+    width: 700px;
+}
+
+.discoverHeadingBlock h3{
+    margin-bottom: 30px;
+}
+
+.discoverHeadingBlock h1{
+    margin-bottom: 30px;
+}
+
+.discoverHeadingBlock p{
+    font-size: 20px;
+}
+
+.discoverButtonBlock{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.discoverButtonBlock button{
+    height: 50px;
+    border: none;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.discoverButtonBlock a:first-child button{
+    background-color: yellow;
+    color: black;
+}
+
+.discoverButtonBlock a:nth-child(2) button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid yellow;
+}
+
+.productsBlock{
+    width: 100%;
+    padding: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.productsHeadingBlock{
+    width: 700px;
+    margin: auto;
+}
+
+.productsHeadingBlock h3{
+    margin-bottom: 30px;
+}
+
+.productsHeadingBlock h1{
+    margin-bottom: 30px;
+}
+
+.productsHeadingBlock p{
+    font-size: 20px;
+}
+
+.productsGridBlock{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 50px;
+}
+
+.productsGridBlock div{
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.productsGridBlock div img{
+    width: 100%;
+    height:400px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.productsGridBlock div h2{
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.product_price_block{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 0px;
+    border: none;
+}
+
+.product_price_block p{
+    font-size: 20px;
+}
+
+.product_price_block p:nth-child(2){
+    color: rgb(176, 175, 175);
+    font-size: 17px;
+    text-decoration: line-through;
+}
+
+.seeAllBtn{
+    display: block;
+    margin: auto;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid yellow;
+}
+
+.videoParentBlock{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.videoBlock{
+    width: 47%;
+    height: 600px;
+}
+
+.videoBlock video{
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.videoHeadingBlock{
+    width: 47%;
+}
+
+.starsBlock{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.starsBlock img{
+    width: 20px;
+    height: 20px;
+}
+
+.videoHeadingBlock h2{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.videoPersonDetailsBlock{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.videoPersonBlock{
+    border-right: 1px solid white;
+    padding-right: 30px;
+}
+
+.videoPersonBlock h3{
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.videoPersonBlock p{
+    margin-bottom: 10px;
+}
+
+.discoverPremiumBlock{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.discoverPremiumHeadingBlock{
+    width: 70%;
+}
+
+.discoverPremiumHeadingBlock p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+@media all and (max-width:1350px){
+    .productsGridBlock{
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(3,350px);
+        align-items: stretch;
+        justify-content: space-between;
+        row-gap: 50px;
+    }
+}
+
+@media all and (max-width:1200px){
+    .productsGridBlock{
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(3,320px);
+        align-items: stretch;
+        justify-content: space-between;
+        row-gap: 50px;
+    }
+
+    .productsGridBlock div img{
+        width: 100%;
+        height:320px;
+        background-size: cover;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width:1090px){
+    .productsGridBlock{
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(3,300px);
+        align-items: stretch;
+        justify-content: space-between;
+        row-gap: 50px;
+    }
+
+    .productsGridBlock div img{
+        width: 100%;
+        height:300px;
+        background-size: cover;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width:1005px){
+    .productsGridBlock{
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,400px);
+        align-items: stretch;
+        justify-content: space-between;
+        row-gap: 50px;
+    }
+
+    .productsGridBlock div img{
+        width: 100%;
+        height:400px;
+        background-size: cover;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+
+    .videoHeadingBlock h2{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+@media all and (max-width:900px){
+    .productsGridBlock{
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        align-items: stretch;
+        justify-content: space-between;
+        row-gap: 50px;
+    }
+
+    .productsGridBlock div img{
+        width: 100%;
+        height:350px;
+        background-size: cover;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width:785px){
+    .productsGridBlock{
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,300px);
+        align-items: stretch;
+        justify-content: space-between;
+        row-gap: 50px;
+    }
+
+    .productsGridBlock div img{
+        width: 100%;
+        height:300px;
+        background-size: cover;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    .videoHeadingBlock h2{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .discoverHeadingBlock{
+        width: 500px;
+    }
+
+    .videoBlock{
+        width: 47%;
+        height: 400px;
+    }
+
+    .discoverBlock{
+        width: 100%;
+        padding: 5%;
+        padding-top: 0;
+        padding-bottom: 0;
+        border: 1px solid white;
+        margin-top: 50px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media all and (max-width:740px){
+    .videoParentBlock{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .videoBlock{
+        width: 100%;
+        height: 600px;
+    }
+
+    .videoHeadingBlock{
+        width: 100%;
+    }
+
+    .discoverPremiumBlock{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    .discoverPremiumHeadingBlock{
+        width: 100%;
+    }
+
+    .productsHeadingBlock{
+        width: 500px;
+        margin: auto;
+    }
+}
+
+@media all and (max-width:680px){
+    .productsGridBlock{
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,250px);
+        align-items: stretch;
+        justify-content: space-between;
+        row-gap: 50px;
+    }
+
+    .productsGridBlock div img{
+        width: 100%;
+        height:300px;
+        background-size: cover;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width:570px){
+    .videoBlock{
+        width: 100%;
+        height: 400px;
+    }
+
+    .productsGridBlock{
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,200px);
+        align-items: stretch;
+        justify-content: space-between;
+        row-gap: 50px;
+    }
+
+    .productsGridBlock div img{
+        width: 100%;
+        height:250px;
+        background-size: cover;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .productsHeadingBlock{
+        width: 300px;
+        margin: auto;
+    }
+
+    .discoverHeadingBlock{
+        width: 300px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    .videoHeadingBlock h2{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .discoverHeadingBlock p{
+        font-size: 17px;
+    }
+
+    .productsHeadingBlock p{
+        font-size: 17px;
+    }
+
+    .product_price_block p{
+        font-size: 17px;
+    }
+    
+    .product_price_block p:nth-child(2){
+        color: rgb(176, 175, 175);
+        font-size: 15px;
+        text-decoration: line-through;
+    }
+
+    .discoverPremiumHeadingBlock p{
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .videoHeadingBlock h2{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .videoPersonBlock h3{
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+}
+
+@media all and (max-width:455px){
+    .productsGridBlock{
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,170px);
+        align-items: stretch;
+        justify-content: space-between;
+        row-gap: 50px;
+    }
+
+    .productsGridBlock div img{
+        width: 100%;
+        height:200px;
+        background-size: cover;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width:390px){
+    .productsGridBlock{
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(2,150px);
+        align-items: stretch;
+        justify-content: space-between;
+        row-gap: 50px;
+    }
+
+    .productsGridBlock div img{
+        width: 100%;
+        height:170px;
+        background-size: cover;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .productsGridBlock div h2{
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+    .videoBlock{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media all and (max-width:350px){
+    .productsHeadingBlock{
+        width: 250px;
+        margin: auto;
+    }
+
+    .discoverHeadingBlock{
+        width: 350px;
+    }
+
+    .discoverButtonBlock button{
+        height: 40px;
+        border: none;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .seeAllBtn{
+        display: block;
+        margin: auto;
+        height: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid yellow;
+    }
+
+    .product_price_block{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding-bottom: 0px;
+        flex-direction: column;
+        row-gap: 10px;
+        border: none;
+    }
+
+    .videoPersonDetailsBlock{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    
+    .videoPersonBlock{
+        border-right: none;
+        padding-right: 10px;
+    }
+
+    .productsGridBlock{
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(2,130px);
+        align-items: stretch;
+        justify-content: space-between;
+        row-gap: 50px;
+    }
+
+    .productsGridBlock div img{
+        width: 100%;
+        height:170px;
+        background-size: cover;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+}

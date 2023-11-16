@@ -1,0 +1,44 @@
+h1{
+  font-size: 55px;
+}
+
+p{
+  font-size: 17px;
+}
+
+.discoverBlock{
+  width: 100%;
+  margin-top: 50px;
+  height: 800px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  object-fit: contain;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 100px;
+}
+
+.discoverHeadingBlock{
+  width: 500px;
+}
+
+.revolutionaryBlock{
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 100px;
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.revolutionaryHeadingBlock{
+  width: 47%;
+}
+
+.revolutionaryListBlock{
+  width: 47%;
+}
