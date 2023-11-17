@@ -9,6 +9,7 @@ module.exports = {
   /**
    * The following settings are required to deploy Hydrogen apps to Oxygen:
    */
+  
   publicPath: (process.env.HYDROGEN_ASSET_BASE_URL ?? '/') + 'build/',
   assetsBuildDirectory: 'dist/client/build',
   appDirectory: "app",
